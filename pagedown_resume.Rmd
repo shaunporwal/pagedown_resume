@@ -1,0 +1,182 @@
+---
+title: "Shaun Porwal's resume"
+author: Shaun Porwal
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+# knit: pagedown::chrome_print
+editor_options: 
+  chunk_output_type: console
+---
+
+Aside
+================================================================================
+
+<img src="pics/porwal_pic.png">
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> shaun.porwal@gmail.com
+- <i class="fa fa-laptop"></i> [shaunporwal.com](https://shaunporwal.com)
+- <i class="fa fa-github"></i> [github.com/shaunporwal](https://github.com/shaunporwal)
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated `r format(Sys.Date(), "%B %Y")`
+
+Main
+================================================================================
+
+Shaun Porwal {#title}
+--------------------------------------------------------------------------------
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Icahn School of Medicine at Mount Sinai
+Master's in Biomeidcal Data Science
+
+New York, NY
+
+2021-2019
+
+*Relevant Coursework*: 
+
+Bioinformatics Capstone, **Biomedical Software Engineering**, Introduction to Algorithms, **Machine Learning for Biomedical Data Science**, Rigor & Reproducibility, **UNIX/Linux Fundamentals**, **Scientific Programming in Python 3**
+
+### Rutgers University - School of Engineering
+Bachelor's in Biomedical Engineering & Chinese (double major)
+
+New Brunswick, NJ
+
+2019-2014
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Surgery Feedback/Biostatistics Data Analyst
+
+Memorial Sloan Kettering Cancer Center
+
+New York, NY
+
+Present - March 2021
+
+- Completed R statistical projects for surgeons including data cleaning, variable derivations, data analysis, and report writing
+- Developed Python package dcurves and created site for Decision Curve Analysis (DCA)
+- Trained 2 interns and 3 surgical fellows in R and Amplio infrastructure
+
+### Bioinformatics Research Intern
+Sema4
+
+Stamford, CT
+
+February 2022 - February 2021
+
+- Performed structural variant (SV) detection on over 100 BAM files, each exceeding 100GB, using tools such as Delly, SvABA and DRAGEN by Illumina
+- Developed pipelines with Bash, Python, WDL, and AWS to automate SV detection and comparison across multiple algorithms
+- Investigated repeat variants within 114 samples, leading to potential therapeutic approaches to diabetes
+- Visualized data using various methods including Circos plots, stacked bar plots, heat maps, scatter plots, etc
+- Consistently updated scripts and files on group GitHub repo to foster collaboration
+
+### Senior Design Project Lead
+Rutgers University - Cai Lab
+
+New Brunswick, NJ
+
+June 2019 - September 2018
+
+- Used RNA-seq pipeline for differential gene expression from multi-timepoint samples
+- Developed algorithm to analyze time-series gene expression using Matlab/Linux through K-Means clustering
+- Created MATLAB GUI to visualize time-series gene expression
+
+### Inorganic Manufacturing Associate
+SPEX CertiPrep Group LLC
+Metuchen, NJ
+
+Present - May 2018
+
+- Verified chemical standard concentrations for quality assurance, manufacturing, and packaging of inorganic standard through wet-lab techniques and analyses
+- Programmed Hudson automated pipettor robot for serial dilutions & inorganic standard synthesis
+- Automated crucible weight retrieval, weight averaging, and gravimetric calculations using Excel
+- Organized company performance data in Excel using pivot tables and charts to support team leaders’ decision-making
+
+### Research Intern
+National Taiwan University - Chen Laboratory
+Taipei, Taiwan
+
+August 2017
+
+- Presented novel research ideas to explore mutagenic DNA SDP sites and investigated gene NR2B’s neurological significance in Chinese
+- Conducted RNA extraction, RT-PCR, TA Cloning, In Situ Hybridization to trace Lumbrokinase expression in A. Viride
+
+### Research Assistant
+Princeton University
+Princeton, NJ
+
+September 2017 - May 2017
+
+- Developed algorithms in MATLAB and Java to search mice genome to locate self-depurinating sequences in DNA
+- Conducted an independent project to trace effects of self-depurination mechanism in genome sequences to determine its relevance to site-directed self-mutagenesis
+
+### Quality Control Intern
+Tokyo Chemical Industry Co., Ltd
+Saitama, Japan
+
+July 2016 - June
+
+- Worked in a team to complete 5 or more QA forms/specs daily
+- Trained for 160 hours in instrumentation (GC, HPLC, NMR, IR) and wet-lab techniques (Appearance, Solubility, MP, Titration, etc)
+
+
+<!-- Honors & Awards {data-icon=award} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ### Travel award recipient  -->
+
+<!-- Women in Statistics and Data Science  -->
+
+<!-- La Jolla, CA -->
+
+<!-- 2017 -->
+
+<!-- Presentations {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ### Writing functions with the {tidyverse} -->
+<!-- Co-presented with Daniel Sjoberg for Memorial Sloan Kettering Open Study Group Seminar Series -->
+
+<!-- N/A -->
+
+<!-- 2022 -->
+
+<!-- :::aside -->
+<!-- Corresponding presentation:[Writing Functions with the {tidyverse}](https://mskcc-epi-bio.github.io/Writing-Functions-with-the-tidyverse/#1) -->
+<!-- ::: -->
+
+<!-- Other Professional Experience {data-icon=briefcase} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ###  Using Unique Associations to Address Health Policy Questions -->
+<!-- Session chair, Joint Statistical Meetings -->
+
+<!-- Denver, CO -->
+
+<!-- 2019 -->
+
+Publications {data-icon=file}
+--------------------------------------------------------------------------------
+*Please see [Google Scholar](https://scholar.google.com/citations?user=eR7hro0AAAAJ&hl=en&oi=ao)*
+
+Pellegrino F, Tin AL, Martini A, Vertosick EA, Porwal SP, Stabile A, Gandaglia G, Eastham JA, Briganti A, Montorsi F, Vickers AJ. Prostate-specific Antigen Density Cutoff of 0.15 ng/ml/cc to Propose Prostate Biopsies to Patients with Negative Magnetic Resonance Imaging: Efficient Threshold or Legacy of the Past? Eur Urol Focus. 2023 Mar;9(2):291-297. doi: 10.1016/j.euf.2022.10.002. Epub 2022 Oct 19. PMID: 36270887.
+
+Pellegrino F, Tin AL, Sjoberg DD, Benfante NE, Weber RC, Porwal SP, Briganti A, Montorsi F, Eastham JA, Laudone
+VP, Vickers AJ. The effect of the da Vinci® Vessel Sealer on robot-assisted laparoscopic prostatectomy complications. J Robot Surg. 2023 Apr 12. doi: 10.1007/s11701-023-01595-x. Epub ahead of print. PMID: 37043122.
